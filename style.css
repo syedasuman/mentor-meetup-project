@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Cookie', cursive;
+    background-image: url(images/background.png);
+
+}
+.celebrity-img-div {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    min-width: 200px;
+    margin: 16px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow:0px 0px 34px 6px #dfdfdf ;
+    -moz-box-shadow:0px 0px 34px 6px #dfdfdf ;
+    box-shadow:0px 0px 34px 6px #dfdfdf ;
+    
+}
+
+.celeb-img-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Cookie', cursive;
+    font-size: 30px;
+
+}
+
+.celebrity-img-div:hover > p  {
+    display: flex;
+    cursor: pointer;
+} 
+
+#celeb-list {
+   
+    overflow-x: scroll;
+    width: 100%;
+    background-color: steelblue;
+    color: white;
+    justify-content: flex-start;
+    display: flex;
+    margin-top: 1em;
+    /* border: 1px dashed #ddd;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #ddd, 0 0 0 10px #fff, 0 0 2px 10px #eee;
+   */
+}
+
+#celeb-details {
+    width: 500px;
+    margin: 2em;
+    border: 1px dashed #ddd;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #ddd, 0 0 0 10px #fff, 0 0 2px 10px #eee;
+}
+
+.card-title, .card-subtitle {
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#celeb-img {
+   background-image: url('images/lipstick.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+}
+
+#celeb-qoute,#celeb-link {
+    text-align: center; font-family: 'Cookie', cursive;
+    font-size: 30px;
+}
